@@ -1,0 +1,70 @@
+body {
+    color: #C9D6D5;           /* texto principal claro */
+    background-color: #232826;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    align-items: center;
+}
+
+a {
+    color: #7C6AA6;           /* roxo místico mais claro */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BFA15A;           /* dourado antigo no hover */
+}
+
+header img {
+    margin-top: 50px;
+
+    width: 150px;
+
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #7C6AA6;
+}
+
+.center {
+    text-align: center;
+}
+
+.formacao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+h1 {
+    margin-top:100px;
+}
+
+.conteiner {
+    padding: 0px 30px;
+}

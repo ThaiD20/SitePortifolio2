@@ -1,0 +1,22 @@
+body {
+    color: #C9D6D5;           /* texto principal claro */
+    background-color: #232826;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    align-items: center;
+}
+
+a {
+    color: #7C6AA6;           /* roxo místico mais claro */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BFA15A;           /* dourado antigo no hover */
+}
